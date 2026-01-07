@@ -1,4 +1,4 @@
 --- New Log ---
-Temps: 1s | Batterie: 100.00J | Paquets en attente: 1
-Temps: 2s | Batterie: 100.00J | Paquets en attente: 2
-Temps: 3s | Batterie: 100.00J | Paquets en attente: 3
+Temps: 1s | Batterie: 97.95J | Paquets en attente: 0
+Temps: 2s | Batterie: 95.90J | Paquets en attente: 0
+Temps: 3s | Batterie: 93.85J | Paquets en attente: 0
