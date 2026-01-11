@@ -2,6 +2,3 @@
 Temps: 1s | Batterie: 100.00J | Paquets en attente: 1
 Temps: 2s | Batterie: 100.00J | Paquets en attente: 2
 Temps: 3s | Batterie: 100.00J | Paquets en attente: 3
-Temps: 4s | Batterie: 100.00J | Paquets en attente: 4
-Temps: 5s | Batterie: 100.00J | Paquets en attente: 5
-Temps: 6s | Batterie: 100.00J | Paquets en attente: 5
