@@ -21,7 +21,11 @@ Sauvegarder une liste chaînée en binaire pose problème car les pointeurs (`su
 ### Compréhension du Modèle Énergétique
 La formule **E = 0.05 + 0.01 × d²** génère des coûts énergétiques très élevés pour des distances importantes. Par exemple, à position (500, 500), le coût est de **5000.05 J**, ce qui dépasse largement la batterie initiale de 100J.
 
-**Solution** : Implémentation d'un système de messages informatifs qui explique clairement pourquoi la transmission échoue (énergie requise vs disponible), évitant toute confusion sur le comportement du simulateur.
+**Solution** : Implémentation d'un système de messages informatifs qui explique clairement pourquoi la transmission échoue (énergie requise vs disponible), évitant toute confusion sur le comportement du simulateur. Un **arrêt de sécurité** a également été ajouté pour stopper la simulation automatique si elle s'avère physiquement impossible, prévenant toute boucle infinie.
+
+### Synchronisation des Identifiants
+Lors du chargement d'un état sauvegardé, le compteur global d'ID pouvait entrer en conflit avec les anciens paquets.
+**Solution** : Ajout d'une fonction `fixer_id_compteur()` qui synchronise automatiquement le générateur d'ID avec le plus grand ID chargé en mémoire.
 
 ---
 
